@@ -5,10 +5,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url(./photo-1454117096348-e4abbeba002c.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 td {
   transition: all 0.5s ease;
   border: solid 1px black;
+  min-width: 10vw;
 }
 td:hover {
   cursor: pointer;
@@ -16,7 +21,7 @@ td:hover {
 }
 table {
   border-collapse: collapse;
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
   height: 90vh;
   border: solid 1px black;
@@ -38,6 +43,7 @@ th {
   background-color: #fdc1c1;
   border: solid 1px black;
 }
+
 .pro {
   background-color: #e2ffc2;
   border: solid 1px black;
@@ -65,4 +71,8 @@ th {
 a {
   text-decoration: none;
   color: black;
+}
+.recreo {
+  background-image: url(./descarga.jpeg);
+  background-size: 100% 100%;
 }
